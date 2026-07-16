@@ -18,6 +18,9 @@ Tableau Public, CSV data (Inside Airbnb)
 - Price and review volume don't move together consistently across
   boroughs, suggesting review count alone isn't a strong price predictor.
 
+## Calculated Fields
+   - `Duration (min)`: DATEDIFF('minute', [started_at], [ended_at])
+
 ## Dashboard
 [View the interactive dashboard on Tableau Public](https://public.tableau.com/views/EmilioAlfonsoCmovaranpreciosydisponibilidaddeAirbnbentrezonasdeNuevaYork/EmilioAlfonso-CmovaranpreciosydisponibilidaddeAirbnbentrezonasdeNuevaYork?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
